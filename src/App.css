@@ -1,0 +1,69 @@
+.App__btn{
+    color: #fff;
+    font-family: sans-serif;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.App__green {
+    background-color: green;
+    margin-left: 10px;
+}
+.App__red {
+    background-color: red;
+    margin-left: 10px;
+}
+.App__blue {
+    background-color: blue;
+    margin-left: 10px;
+}
+.App__box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.App__input{
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #a4a4a4;
+    margin-left: 10px;
+    width: 300px;
+}
+
+.App__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.App__inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.App__images {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.App__images img {
+    cursor: pointer;
+}
+.App__wrapper h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
